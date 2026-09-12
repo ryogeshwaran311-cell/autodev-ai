@@ -17,6 +17,9 @@ class Settings(BaseSettings):
     vercel_team_id: str = ""
     vercel_oidc_token: str = ""
 
+    github_token: str = ""
+    github_owner: str = "ryogeshwaran311-cell"
+
     autodev_internal_token: str = "change-me"
     frontend_origin: str = "http://localhost:5173"
 
