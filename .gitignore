@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Generated workspaces
+workspace/*
+
+# Build/output
+.next/
+dist/
+build/
+*.log
+
+# IDE/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
